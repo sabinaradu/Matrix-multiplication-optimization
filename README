@@ -225,7 +225,7 @@ Implementare
 Compararea rezultatelor
 
 	Graficele se afla in folderul graf si contin interpretarea valorilor lui N din intervalul [300...1200].
-	Se observa ca metoda BLAS este cea mai avantajoasa, folosind functii specializate in lucrul cu operatii cu matrici. Astfel, pentru N = 100, obtinem blas = 0.54s si opt_m = 9.16s, deci un timp de aproape 17 ori mai bun in cazul BLAS.
+	Se observa ca metoda BLAS este cea mai avantajoasa, folosind functii specializate in lucrul cu operatii cu matrici. Astfel, pentru N = 1000, obtinem blas = 0.54s si opt_m = 9.16s, deci un timp de aproape 17 ori mai bun in cazul BLAS.
 	Fata de varianta neoptimizata, metoda optimizata este de 2 ori mai buna. De exemplu, pentru N = 1200, avem neopt = 42.81s si pentru opt_m = 17.69s. Prin urmare, folosirea pointerilor, accesul direct la memorie permit o optimizare radicala a rezultatelor.
 
 
